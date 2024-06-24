@@ -27,3 +27,9 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+@media (max-width: 375px) {
+  .some-class {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
